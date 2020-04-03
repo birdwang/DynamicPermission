@@ -1,12 +1,11 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.NonNull;
 
-import static com.birdwang.dynamicpermission.PermissionCall.PERMISSION_REQUEST_CODE;
+import static com.birdwang.permission.PermissionCall.PERMISSION_REQUEST_CODE;
 
 class RequestManager implements Listener {
     private final PermissionCall call = new PermissionCall();

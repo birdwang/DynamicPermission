@@ -1,10 +1,9 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
-import android.app.Fragment;
-import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
 
-public class RequestManagerFragment extends Fragment {
+public class SupportRequestManagerFragment extends Fragment {
     RequestManager requestManager;
 
     @Override

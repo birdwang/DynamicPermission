@@ -1,8 +1,7 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
 import android.app.Activity;
 import android.content.Context;
-import android.os.Build;
 
 public class DynamicPermission {
     private RequestManagerRetriever requestManagerRetriever;

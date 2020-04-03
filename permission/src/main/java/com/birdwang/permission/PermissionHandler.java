@@ -1,4 +1,4 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import static com.birdwang.dynamicpermission.PermissionCall.PERMISSION_REQUEST_CODE;
+import static com.birdwang.permission.PermissionCall.PERMISSION_REQUEST_CODE;
 
 public class PermissionHandler {
 

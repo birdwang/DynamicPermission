@@ -1,4 +1,4 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;

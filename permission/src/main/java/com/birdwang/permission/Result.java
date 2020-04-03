@@ -1,4 +1,4 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
 public interface Result {
 

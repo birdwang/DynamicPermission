@@ -1,4 +1,4 @@
-package com.birdwang.dynamicpermission;
+package com.birdwang.permission;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+
 
 public class PermissionCall {
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
